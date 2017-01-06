@@ -59,11 +59,11 @@ namespace AssignmentTwo
         /// Converts a binary number to floating point number.
         /// </summary>
         /// <param name="number"></param>
-        public void BinaryToFloat(string number)
+        public float BinaryToFloat(string number)
         {
             StringManipulations stringIndex = new StringManipulations();
             int index = stringIndex.IndexOf(number, '.');
-            Console.WriteLine(number);
+
             string partOneNumber = stringIndex.Substring(number, 0, index);
             string partTwoNumber = stringIndex.Substring(number, index + 1, number.Length - index - 1);
 
@@ -75,7 +75,7 @@ namespace AssignmentTwo
                 fractionalPart += (float)((partTwoNumber[iterator] - 48) / Math.Pow(2, iterator + 1));
 
             }
-            Console.WriteLine(integralPart + fractionalPart);
+            return integralPart + fractionalPart;
         }
 
     }

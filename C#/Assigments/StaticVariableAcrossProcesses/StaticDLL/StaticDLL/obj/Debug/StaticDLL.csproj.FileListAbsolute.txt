@@ -1,0 +1,5 @@
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticDLL\StaticDLL\bin\Debug\StaticDLL.dll
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticDLL\StaticDLL\bin\Debug\StaticDLL.pdb
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticDLL\StaticDLL\obj\Debug\StaticDLL.csprojResolveAssemblyReference.cache
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticDLL\StaticDLL\obj\Debug\StaticDLL.dll
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticDLL\StaticDLL\obj\Debug\StaticDLL.pdb

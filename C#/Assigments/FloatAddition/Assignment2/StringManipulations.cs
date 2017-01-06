@@ -18,16 +18,16 @@ namespace AssignmentTwo
         /// <param name="number2"></param>
         /// <returns></returns>
         /// <see cref="http://www.geeksforgeeks.org/add-two-bit-strings/"/> 
-        public Tuple<string, string> MakeEqualLength(string stringOne, string stringTwo)
+        public string[] MakeEqualLength(string[] strings)
         {
-            int firstLength = stringOne.Length;
-            int secondLength = stringTwo.Length;
+            int firstLength = strings[0].Length;
+            int secondLength = strings[1].Length;
 
             if (firstLength < secondLength)
             {
                 for (int i = 0; i < secondLength - firstLength; i++)
                 {
-                    stringOne = '0' + stringOne;
+                    strings[0] = '0' + strings[0];
                 }
 
 
@@ -35,9 +35,11 @@ namespace AssignmentTwo
             else if (firstLength > secondLength)
             {
                 for (int i = 0; i < firstLength - secondLength; i++)
-                    stringTwo = '0' + stringTwo;
+                    strings[1] = '0' + strings[1];
             }
-            return new Tuple<string, string>(stringOne, stringTwo);
+            
+            return strings;
+            
         }
         /// <summary>
         /// Returns index of the character

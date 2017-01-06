@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AssignmentTwo
 {
@@ -13,34 +9,29 @@ namespace AssignmentTwo
     {
         static void Main(string[] args)
         {
-            // Input two numbers.
             try
             {
+                // Input two numbers.
                 var firstNumber = float.Parse(Console.ReadLine());
                 var secondNumber = float.Parse(Console.ReadLine());
 
                 // Instance for FloatToIEEE class.
-                FloatToIEEE floatInstance = new FloatToIEEE();
-
-                // Binary representation of the numbers.
-                var binaryFirstNumber = floatInstance.FloatToBinary(firstNumber);
-                var binarySecondNumber = floatInstance.FloatToBinary(secondNumber);
-
-                // Normalized Numbers to common exponent (i.e 2^0) here.            
-                string normalizedFirstNumber = floatInstance.Normalize(binaryFirstNumber.Power, binaryFirstNumber.Mantissa);
-                string normalizedSecondNumber = floatInstance.Normalize(binarySecondNumber.Power, binarySecondNumber.Mantissa);
+                FloatToIEEE floatObj = new FloatToIEEE();
 
                 // Instance for performing all the mathematical conversions.
-                MathematicalConversions mathInstance = new MathematicalConversions();
+                MathematicalConversion mathInstance = new MathematicalConversion();
 
                 // Instance for adding the two numbers.
-                Addition additionInstance = new Addition();
+                Addition additionObj = new Addition();
 
                 // String storing the sum of two numbers.
-                string sumOfNumbers = additionInstance.Add(normalizedFirstNumber, normalizedSecondNumber);
+                string sumOfNumbers = additionObj.Add(floatObj.NormalizeTwoNumbers(firstNumber, secondNumber));
 
                 // Converting the result back to binary.
-                mathInstance.BinaryToFloat(sumOfNumbers);
+                float result = mathInstance.BinaryToFloat(sumOfNumbers);
+
+                // Result of the two numbers is displayed.
+                Console.WriteLine(result);
             }
             catch (Exception e)
             {
