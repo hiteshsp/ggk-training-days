@@ -1,0 +1,6 @@
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\OutParameter\OutParameter\bin\Debug\OutParameter.exe.config
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\OutParameter\OutParameter\bin\Debug\OutParameter.exe
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\OutParameter\OutParameter\bin\Debug\OutParameter.pdb
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\OutParameter\OutParameter\obj\Debug\OutParameter.csprojResolveAssemblyReference.cache
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\OutParameter\OutParameter\obj\Debug\OutParameter.exe
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\OutParameter\OutParameter\obj\Debug\OutParameter.pdb
