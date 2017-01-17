@@ -1,8 +1,0 @@
-c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticVariableTwo\bin\Debug\StaticVariableTwo.exe.config
-c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticVariableTwo\bin\Debug\StaticVariableTwo.exe
-c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticVariableTwo\bin\Debug\StaticVariableTwo.pdb
-c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticVariableTwo\bin\Debug\StaticDLL.dll
-c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticVariableTwo\bin\Debug\StaticDLL.pdb
-c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticVariableTwo\obj\Debug\StaticVariableTwo.exe
-c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticVariableTwo\obj\Debug\StaticVariableTwo.pdb
-c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticVariableTwo\obj\Debug\StaticVariableTwo.csprojResolveAssemblyReference.cache

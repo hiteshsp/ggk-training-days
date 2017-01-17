@@ -1,0 +1,8 @@
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariableTwo\bin\Debug\StaticVariableTwo.exe.config
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariableTwo\bin\Debug\StaticVariableTwo.exe
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariableTwo\bin\Debug\StaticVariableTwo.pdb
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariableTwo\bin\Debug\StaticDLL.dll
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariableTwo\bin\Debug\StaticDLL.pdb
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariableTwo\obj\Debug\StaticVariableTwo.csprojResolveAssemblyReference.cache
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariableTwo\obj\Debug\StaticVariableTwo.exe
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariableTwo\obj\Debug\StaticVariableTwo.pdb

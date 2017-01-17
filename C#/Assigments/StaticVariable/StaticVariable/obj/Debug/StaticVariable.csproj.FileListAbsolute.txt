@@ -1,0 +1,7 @@
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\StaticVariable\StaticVariable\bin\Debug\StaticVariable.exe.config
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariable\bin\Debug\StaticVariable.exe
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariable\bin\Debug\StaticVariable.pdb
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariable\bin\Debug\StaticDLL.pdb
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariable\obj\Debug\StaticVariable.exe
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariable\obj\Debug\StaticVariable.pdb
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\StaticVariable\StaticVariable\obj\Debug\StaticVariable.csprojResolveAssemblyReference.cache
