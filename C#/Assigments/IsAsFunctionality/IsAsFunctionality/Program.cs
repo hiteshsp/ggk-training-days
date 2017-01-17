@@ -1,15 +1,7 @@
 ﻿using System;
 
 namespace IsAsFunctionality
-{
-    // BaseClass. 
-    class BaseClass
-    {
-    }
-    // SubClass. 
-    class SubClass : BaseClass
-    {
-    }
+{   
     /// <summary>
     /// Driver Class for IsAsFunctionality.
     /// </summary>
@@ -28,10 +20,8 @@ namespace IsAsFunctionality
           
             // As Implementation.
             a = b.As(typeof(BaseClass));
-            b = a.As(typeof(SubClass));
-
+            
             Console.WriteLine(a);
-            Console.WriteLine(b);
         }
     }
 }

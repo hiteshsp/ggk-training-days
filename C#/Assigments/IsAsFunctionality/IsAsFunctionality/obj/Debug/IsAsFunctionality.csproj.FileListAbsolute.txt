@@ -7,3 +7,6 @@ c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\IsAsFunctionali
 C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\bin\Debug\IsAsFunctionality.exe.config
 C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\obj\Debug\IsAsFunctionality.exe
 C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\obj\Debug\IsAsFunctionality.pdb
+C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\bin\Debug\IsAsFunctionality.exe
+C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\bin\Debug\IsAsFunctionality.pdb
+C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\obj\Debug\IsAsFunctionality.csprojResolveAssemblyReference.cache
