@@ -43,7 +43,6 @@
     <Compile Include="ConcreteDatabaseFactory.cs" />
     <Compile Include="DataAccess.cs" />
     <Compile Include="DataFactory.cs" />
-    <Compile Include="DataSet.cs" />
     <Compile Include="IDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

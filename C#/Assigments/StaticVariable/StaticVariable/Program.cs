@@ -4,6 +4,9 @@ using System.Diagnostics;
 
 namespace StaticVariable
 {
+    /// <summary>
+    /// Driver class.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)

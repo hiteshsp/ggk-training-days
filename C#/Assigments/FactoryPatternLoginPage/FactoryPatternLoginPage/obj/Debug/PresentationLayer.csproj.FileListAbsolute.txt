@@ -8,3 +8,6 @@ C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\FactoryPatternL
 C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\FactoryPatternLoginPage\FactoryPatternLoginPage\obj\Debug\PresentationLayer.csprojResolveAssemblyReference.cache
 C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\FactoryPatternLoginPage\FactoryPatternLoginPage\obj\Debug\FactoryPatternLoginPage.exe
 C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\FactoryPatternLoginPage\FactoryPatternLoginPage\obj\Debug\FactoryPatternLoginPage.pdb
+C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\FactoryPatternLoginPage\FactoryPatternLoginPage\bin\Debug\FactoryPatternLoginPage.exe.config
+C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\FactoryPatternLoginPage\FactoryPatternLoginPage\obj\Debug\FactoryPatternLoginPage.exe
+C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\FactoryPatternLoginPage\FactoryPatternLoginPage\obj\Debug\FactoryPatternLoginPage.pdb

@@ -2,6 +2,9 @@
 using StaticDLL;
 namespace StaticVariableTwo
 {
+    /// <summary>
+    /// Another Driver class which is invoked by another project.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)

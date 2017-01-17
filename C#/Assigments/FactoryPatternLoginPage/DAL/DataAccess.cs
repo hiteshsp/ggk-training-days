@@ -30,7 +30,9 @@ namespace DAL
         public  string GetPassword(string userName)
         {
             if (IsExistingUser(userName))
+            {
                 return list[userName];
+            }
             return "Incorrect UserName";
         }
         /// <summary>
