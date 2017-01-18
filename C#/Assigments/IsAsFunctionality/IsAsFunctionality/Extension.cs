@@ -14,11 +14,9 @@ namespace IsAsFunctionality
         /// <param name="className"></param>
         /// <returns></returns>
         public static bool Is(this object obj, Type className)
-        {
+        {            
             Type objType = obj.GetType();
-
             return className.IsAssignableFrom(objType);
-
         }        
         /// <summary>
         /// Returns the object after assigning its type.
@@ -26,9 +24,13 @@ namespace IsAsFunctionality
         /// <param name="obj"></param>
         /// <param name="className"></param>
         /// <returns></returns>
-        public static dynamic As(this object obj, Type className)
+        public static T As<T>(this object obj)
         {
-            return obj.Is(className) ? obj : null;
+            if (!(typeof(T).IsGenericType && typeof(T).GetGenericTypeDefinition() == typeof(Nullable<>)) && typeof(T).BaseType == typeof(ValueType))
+            {
+                throw new ValueTypeException();
+            }
+            return obj.Is(typeof(T)) ? (T)obj : default(T);
         }
     }
 }
