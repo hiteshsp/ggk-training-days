@@ -14,9 +14,10 @@ namespace IsAsFunctionality
             if (subClassObj.Is(typeof(BaseClass)))
             {
                 Console.WriteLine("'IS' Works !");
-            }
-
+            }            
+            subClassObj = baseClassObj.As<SubClass>();
             baseClassObj = subClassObj.As<BaseClass>();
+            Console.WriteLine(subClassObj);
             Console.WriteLine(baseClassObj);
 
         }
