@@ -10,7 +10,7 @@ namespace IsAsFunctionality
         {
             BaseClass baseClassObj = new BaseClass();
             SubClass subClassObj = new SubClass();
-
+            
             if (subClassObj.Is(typeof(BaseClass)))
             {
                 Console.WriteLine("'IS' Works !");
