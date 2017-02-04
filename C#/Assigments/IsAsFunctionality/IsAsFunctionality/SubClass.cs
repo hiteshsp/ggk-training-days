@@ -5,6 +5,7 @@
     /// </summary>
     class SubClass : BaseClass
     {
+<<<<<<< HEAD
         ///// <summary>
         ///// ToString Method for BaseClass.
         ///// </summary>
@@ -13,5 +14,15 @@
         //{
         //    return "SubClass";
         //}
+=======
+        /// <summary>
+        /// ToString Override of SubClass.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return "SubClass";
+        }
+>>>>>>> develop
     }
 }
