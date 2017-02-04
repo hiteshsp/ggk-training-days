@@ -1,24 +1,29 @@
 ﻿using System;
+
 namespace IsAsFunctionality
 {
-    /// <summary>
-    /// Driver Class for IsAsFunctionality.
-    /// </summary>
+    class BaseClass
+    {
+    }
+    class SubClass : BaseClass
+    {
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            BaseClass baseClassObj = new BaseClass();
-            SubClass subClassObj = new SubClass();
+            BaseClass a = new BaseClass();
+            SubClass b = new SubClass();
 
-            if (subClassObj.Is(typeof(BaseClass)))
+            if(b.Is(typeof(BaseClass)))
             {
                 Console.WriteLine("'IS' Works !");
             }
-            subClassObj = baseClassObj.As<SubClass>();
-            baseClassObj = subClassObj.As<BaseClass>();
-            Console.WriteLine(subClassObj);
-            Console.WriteLine(baseClassObj);
+            object t = "test";
+            Console.WriteLine(t.GetType());
+            a = b.As(typeof(BaseClass));
+            b = a.As(typeof(SubClass));
+            
         }
     }
 }

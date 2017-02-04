@@ -4,9 +4,5 @@ c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\IsAsFunctionali
 c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\IsAsFunctionality\IsAsFunctionality\obj\Debug\IsAsFunctionality.csprojResolveAssemblyReference.cache
 c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\IsAsFunctionality\IsAsFunctionality\obj\Debug\IsAsFunctionality.exe
 c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\IsAsFunctionality\IsAsFunctionality\obj\Debug\IsAsFunctionality.pdb
-C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\bin\Debug\IsAsFunctionality.exe.config
-C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\obj\Debug\IsAsFunctionality.exe
-C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\obj\Debug\IsAsFunctionality.pdb
-C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\bin\Debug\IsAsFunctionality.exe
-C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\bin\Debug\IsAsFunctionality.pdb
-C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\IsAsFunctionality\IsAsFunctionality\obj\Debug\IsAsFunctionality.csprojResolveAssemblyReference.cache
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\IsAsFunctionality\IsAsFunctionality\bin\Debug\AutoMapper.dll
+C:\Users\hiteshwara.sharma\Documents\Visual Studio 2015\Projects\IsAsFunctionality\IsAsFunctionality\bin\Debug\AutoMapper.xml
