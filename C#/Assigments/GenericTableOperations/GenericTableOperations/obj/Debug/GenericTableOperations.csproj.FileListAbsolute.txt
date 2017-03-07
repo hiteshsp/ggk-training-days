@@ -1,0 +1,6 @@
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\GenericTableOperations\GenericTableOperations\bin\Debug\GenericTableOperations.exe.config
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\GenericTableOperations\GenericTableOperations\bin\Debug\GenericTableOperations.exe
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\GenericTableOperations\GenericTableOperations\bin\Debug\GenericTableOperations.pdb
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\GenericTableOperations\GenericTableOperations\obj\Debug\GenericTableOperations.csprojResolveAssemblyReference.cache
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\GenericTableOperations\GenericTableOperations\obj\Debug\GenericTableOperations.exe
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\GenericTableOperations\GenericTableOperations\obj\Debug\GenericTableOperations.pdb

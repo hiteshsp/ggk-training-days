@@ -1,0 +1,5 @@
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\ThreeTier_withWebApi\BLL\bin\Debug\BLL.dll
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\ThreeTier_withWebApi\BLL\bin\Debug\BLL.pdb
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\ThreeTier_withWebApi\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\ThreeTier_withWebApi\BLL\obj\Debug\BLL.dll
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\ThreeTier_withWebApi\BLL\obj\Debug\BLL.pdb
