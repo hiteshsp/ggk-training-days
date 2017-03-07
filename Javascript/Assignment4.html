@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <head>  
+            <title> Assignment 4 numbers to words. </title>
+            
+    </head>
+
+    <body>
+        <aside style="align-items: center">
+        <fieldset name = "numbersToWords" style= " width: 30px;">
+            
+        <form id ="form1">  
+       <label>Enter a number:</label>         <input type = "text" id = "txtNumber" /><br><br>
+                <input type = "button" id = "btnConvert" onclick = "convert()" value = "Convert To Words" /><br><br>
+      <label>Number in words :</label>          <textarea id = "result" >
+                </textarea>
+        </form>        
+        </fieldset>
+        </aside>
+    </body>
+<script>
+var ones = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
+var teens = ['Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen'];
+var tens = ['', '', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety'];
+  function convert()
+   {
+                   var num = document.getElementById("txtNumber").value
+                   var res = document.getElementById("result");
+
+                     if (isNaN(num))
+                      {
+                        res.value = "not a number"
+                      }
+                     else
+                     {
+                        res.value = convert(num);
+                     }
+                    
+function convertToCrores(number)          
+{
+    if( number >= 10000000)
+    {
+         return convertToCrores(Math.floor(number / 10000000)) + " Crores " + convertToLakhs(number % 10000000);
+    }
+    else 
+     {
+         return convertToLakhs(number);
+     }
+}
+
+ function convertToLakhs(number)
+  {
+     if (number >= 100000) 
+     {
+         return convertToLakhs(Math.floor(number / 100000)) + " Lakhs " + convertToThousands(number % 100000);
+     }
+     else 
+     {
+         return convertToThousands(number);
+     }
+ }
+
+ function convertToThousands(number) 
+ {
+     if (number >= 1000)
+      {
+         return convertToThousands(Math.floor(number / 1000)) + " thousand " + convertToHundreds(number % 1000);
+      } 
+     else 
+     {
+         return convertToHundreds(number);
+     }
+ }
+
+ function convertToHundreds(number) 
+ {
+     if (number > 99) 
+     {
+         return ones[Math.floor(number / 100)] + " hundred and " + convertToTens(number % 100);
+     }
+     else 
+     {
+         return convertToTens(number);
+     }
+ }
+
+ function convertToTens(number)
+  {
+     if (number < 10)
+     {
+        return ones[number];
+     } 
+     else if (number >= 10 && number < 20)
+      {
+          return teens[number - 10];
+      }
+     else
+      {
+         return tens[Math.floor(number / 10)] + " " + ones[number % 10];
+      }
+  }
+   function convert(num)
+    {
+     if (num == 0) 
+     {
+         return "zero";
+     }
+     else
+     {
+            return convertToCrores(num);
+     } 
+ }
+
+ }
+    </script>
+</html>

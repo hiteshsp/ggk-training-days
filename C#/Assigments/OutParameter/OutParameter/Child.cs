@@ -1,33 +1,29 @@
 ﻿using System;
 using System.Threading;
-
-
 namespace OutParameter
 {
     /// <summary>
-    /// Child class which takes the out parameter.
+    /// Child Class.
     /// </summary>
     class Child
     {
         /// <summary>
-        /// Prints the value of parameter to console.
+        /// Print Method.
         /// </summary>
         /// <param name="x"></param>
-        public void Print( int x)
+        public void Print(int x)
         {
-            Console.WriteLine("Print before init " +  x);
+            Console.WriteLine("Print before init " + x);
         }
         /// <summary>
-        /// Takes the out parameter and updates the parameter.
+        /// Method consuming "out" parameter.
         /// </summary>
         /// <param name="x"></param>
-        public void OutCheck(out int x)
+        public void OutParameterTest(out int x)
         {
             Thread.Sleep(1000);
             x = 20;
             Thread.Sleep(100);
-
-
         }
     }
 }

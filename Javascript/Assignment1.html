@@ -1,0 +1,35 @@
+<!Doctype html>
+<head>
+    <meta charset= "UTF-8"/>    
+    <title>Assignment No. 1</title>    
+</head>
+<body>
+    <form id = "form1">
+                <label>Please input a number below to get its multiplication table</label><br>
+                <input type = "text"  placeholder="Enter a number" id = "txtNumber"/><br>
+                <input type = "button" value="Calculate" onclick = "multiplicationTable()"/>
+    </form>
+    <div id = "number1"></div><br>
+    <div id = "number2"></div><br>
+    <div id = "number3"></div><br>
+    <div id = "number4"></div><br>
+    <div id = "number5"></div><br>
+    <div id = "number6"></div><br>
+    <div id = "number7"></div><br>
+    <div id = "number8"></div><br>
+    <div id = "number9"></div><br>
+    <div id = "number10"></div>
+</body>
+<script>
+function multiplicationTable(){    
+    number =  document.getElementById('txtNumber').value;    
+    temp = number;
+    for( i = 1; i <= 10; i++)
+    {       
+        temp *= i;
+        document.getElementById('number' + i).innerHTML = temp;
+        temp = number;
+    }    
+} 
+</script>
+</html>

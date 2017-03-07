@@ -7,6 +7,3 @@ c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\OutParameter\Ou
 C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\OutParameter\OutParameter\bin\Debug\OutParameter.exe.config
 C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\OutParameter\OutParameter\obj\Debug\OutParameter.exe
 C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\OutParameter\OutParameter\obj\Debug\OutParameter.pdb
-C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\OutParameter\OutParameter\bin\Debug\OutParameter.exe
-C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\OutParameter\OutParameter\bin\Debug\OutParameter.pdb
-C:\Users\hiteshwara.sharma\Desktop\hiteshwarasharma\C#\Assigments\OutParameter\OutParameter\obj\Debug\OutParameter.csprojResolveAssemblyReference.cache
