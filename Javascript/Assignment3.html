@@ -1,0 +1,32 @@
+<body>
+        <input type="button" value = "Start" onclick="start();infiniteFibonacci()"/><br>
+        <input type="button" value = "Stop" onclick="stop()">
+</body>
+<script>
+var flag = null;
+
+function start()
+{
+    flag = true;
+}
+function stop()
+{
+    flag = false;
+}
+function infiniteFibonacci()
+{
+    var a = 0;
+    var b = 1;
+    document.writeln(a);
+    document.writeln(b);
+    while(flag)
+    {
+            var f = a + b;
+            a = b;
+            b = f;
+            document.writeln(f);
+    }
+
+}
+
+</script>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title> Assignment 9 Breadcrumb</title>       
+</head>
+<body>
+        <H1> Welcome to the Breadcrumb Assignment </H1>
+</body>
+<script>
+var path = "";
+var href = document.location.href;
+var splitString = href.split("/");
+
+for (var i = 2; i < (splitString.length-1);  i++)
+{  
+    path += "<a href=\"" + href.substring(0, href.indexOf("/" + splitString[i])+splitString[i].length+1) + "/\">" + splitString[i] + "</a> / ";
+}
+
+i = splitString.length - 1;
+
+
+
+path += "<a href=\"" + href.substring(0, href.indexOf(splitString[i]) + splitString[i].length) + "\">" + splitString[i] + "</a>";
+
+var url =  path;
+
+document.writeln(url);
+</script>
+</html>
+

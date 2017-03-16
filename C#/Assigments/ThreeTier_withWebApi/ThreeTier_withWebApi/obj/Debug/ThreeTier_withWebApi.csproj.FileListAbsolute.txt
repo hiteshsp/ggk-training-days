@@ -1,0 +1,2 @@
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\ThreeTier_withWebApi\ThreeTier_withWebApi\bin\Debug\ThreeTier_withWebApi.exe.config
+c:\users\hiteshwara.sharma\documents\visual studio 2015\Projects\ThreeTier_withWebApi\ThreeTier_withWebApi\obj\Debug\ThreeTier_withWebApi.csprojResolveAssemblyReference.cache

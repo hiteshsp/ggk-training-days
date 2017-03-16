@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() 
+{
+    for(i=0; i<3; i++)
+    {
+        var x = document.forms["myForm"][i].value;
+        if (x == "") 
+        {
+        	document.forms["myForm"][i].style.backgroundColor = "red";
+        }
+    }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm">
+Name: <input>
+College: <input>
+<input type="button" value="Submit" onclick="validateForm()">
+</form>
+
+</body>
+</html>
