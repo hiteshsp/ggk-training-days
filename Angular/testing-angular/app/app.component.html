@@ -1,0 +1,33 @@
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<div class ="container">
+<div class = "well">
+
+    <div class = "form-group">
+        <h1>User Details </h1>
+<form #userForm = "ngForm" (ngSubmit) = "onSubmit(userForm.value)">
+    <div class = "form-group">
+    <input type="text" class ="form-control" name = "name" ngModel placeholder="Name" [(ngModel)] = "Name">
+    
+    <br>
+    {{Name}}
+    </div>
+    <div class = "form-group">
+    <input type="text" class ="form-control" name = "Email" ngModel placeholder="Email" [(ngModel)] = "Email" ><br>
+    {{Email}}
+    </div>
+    <div class = "form-group">
+    <div ngModelGroup="address">
+        <input type="text" class ="form-control" name="City" ngModel placeholder="City" [(ngModel)] = "City"><br>
+        {{City}}
+        <input type="text" class ="form-control" name = "PostalCode" ngModel placeholder="PostalCode" [(ngModel)] = "PostalCode"><br>
+        {{PostalCode}}
+    </div>
+    </div>
+    <button type = "submit" class ="btn btn-success"> Submit </button>
+</form>
+    </div>
+</div>
+</div>
+</html>
